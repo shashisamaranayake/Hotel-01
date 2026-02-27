@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Ocean Crown Resort</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="logo">Ocean Crown Resort</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="offers.html">Offers</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <h2 class="section-title">Contact Us</h2>
+
+  <form onsubmit="return validateContactForm()">
+    <input type="text" id="name" placeholder="Full Name">
+    <input type="email" id="email" placeholder="Email Address">
+    <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <br><br>
+
+  <h3>Our Location</h3>
+  <iframe 
+    src="https://maps.google.com/maps?q=sri%20lanka&t=&z=7&ie=UTF8&iwloc=&output=embed"
+    width="100%" height="300" style="border:0;">
+  </iframe>
+
+  <p><strong>Address:</strong> Ocean Crown Resort, Colombo, Sri Lanka</p>
+  <p><strong>Phone:</strong> +94 77 123 4567</p>
+  <p><strong>Email:</strong> info@oceancrown.com</p>
+
+</section>
+
+<footer>
+  <p>Ocean Crown Resort, Sri Lanka</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

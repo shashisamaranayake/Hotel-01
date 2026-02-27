@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Room Details | Ocean Crown Resort</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="logo">Ocean Crown Resort</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="offers.html">Offers</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <h2 class="section-title">Deluxe Ocean View Room</h2>
+
+  <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a" style="width:100%;max-height:500px;object-fit:cover;">
+
+  <br><br>
+
+  <h3>Description</h3>
+  <p>
+    Experience breathtaking ocean views, premium bedding, marble bathroom,
+    private balcony, and world-class comfort.
+  </p>
+
+  <h3>Amenities</h3>
+  <ul>
+    <li>Free WiFi</li>
+    <li>Air Conditioning</li>
+    <li>Mini Bar</li>
+    <li>Flat Screen TV</li>
+    <li>Private Balcony</li>
+  </ul>
+
+  <h3 class="price">$250 / night</h3>
+
+  <h3>Book This Room</h3>
+
+  <form onsubmit="return validateBookingForm()">
+    <input type="text" id="bname" placeholder="Full Name">
+    <input type="date" id="checkin">
+    <input type="date" id="checkout">
+    <select>
+      <option>1 Guest</option>
+      <option>2 Guests</option>
+      <option>3 Guests</option>
+    </select>
+    <button type="submit">Submit Booking</button>
+  </form>
+
+</section>
+
+<footer>
+  <p>Ocean Crown Resort, Sri Lanka</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
